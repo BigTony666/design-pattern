@@ -4,8 +4,11 @@
   "description": "A collection of 23 design patterns implemented in JavaScript",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && nodemon --exec babel-node ./dist/index.js",
+    "clean": "rm -rf dist",
+    "build": "gulp build",
     "lint": "eslint ./src/*",
-    "test": "npm run lint && mocha"
+    "test": "npm run lint && mocha --compilers js:@babel/register"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,10 @@
   },
   "homepage": "https://github.com/BigTony666/design-pattern#readme",
   "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/register": "^7.0.0",
     "chai": "^4.2.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -30,6 +37,10 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "gulp": "^4.0.0",
-    "mocha": "^5.2.0"
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.6"
   }
 }

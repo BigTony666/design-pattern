@@ -2,5 +2,12 @@
     "extends": "airbnb",
     "parserOptions": {
         "ecmaVersion": 2018
-    }
+    },
+    "rules": {
+        "no-bitwise": "off",
+        "no-lonely-if": "off",
+        "class-methods-use-this": "off",
+        "arrow-body-style": "off",
+        "no-loop-func": "off"
+      }
 }
