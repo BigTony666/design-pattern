@@ -4,7 +4,7 @@
   "description": "A collection of 23 design patterns implemented in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/BigTony666/design-pattern/issues"
   },
-  "homepage": "https://github.com/BigTony666/design-pattern#readme"
+  "homepage": "https://github.com/BigTony666/design-pattern#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "gulp": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
 }
