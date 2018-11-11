@@ -5,7 +5,7 @@ set -e
 cd javascript
 
 # run installation
-npm install
+npm ci
 
 # run tests
 npm run test
