@@ -14,6 +14,12 @@
 2. Set up nodemon for `npm run start`, not used yet.
 3. Set up Mocha test with Babel
 
+## 2018-11-15
+
+1. Add mocha.opts file and update deprecated command `--compilers`
+2. Add Adapter pattern
+3. TODO: Fix the eslint error for Mocha test
+
 ## Reference
 
 1. Design Pattern: https://blog.csdn.net/lovelion/article/details/17517213
@@ -42,4 +48,3 @@
 8. Babel: create .babelrc file
 
 9. Complete environment: https://dev.to/bnorbertjs/my-nodejs-setup-mocha--chai-babel7-es6-43ei
-
