@@ -1,3 +1,10 @@
+/**
+ * @reference
+ *   https://my.oschina.net/u/1382972/blog/169747
+ *   https://blog.csdn.net/hapjin/article/details/49201341
+ *   https://blog.csdn.net/lovelion/article/details/8624412
+ */
+
 interface ScoreOperation{
     public <T extends Comparable<T>> T[] sort(T[] arr);
     public <T extends Comparable<T>> int search(T[] arr, T key);
