@@ -47,4 +47,8 @@ class Adaptee {
   }
 }
 
-export { Target, Adapter, Adaptee };
+export {
+  Target,
+  Adapter,
+  Adaptee,
+};
