@@ -3,7 +3,7 @@
     "parserOptions": {
         "ecmaVersion": 2018
     },
-    "parser": "Babel-ESLint",
+    "parser": "babel-eslint",
     "env": {
         "node": true,
         "mocha": true
